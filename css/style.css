@@ -5,10 +5,14 @@
 /* Components */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
 
 /* Screens */
 @import "screens/login.css";
+@import "screens/friends.css";
 body {
+  color: rgba(148, 147, 147, 0.3)
   font-family: "Cairo", sans-serif;
   font-family: "Open Sans", sans-serif;
 }
