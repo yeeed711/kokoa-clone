@@ -8,8 +8,8 @@ nav ul li i {
   width: 100%;
   background-color: #f9f9fa;
   padding: 20px 50px;
-  border-top: 1px solid rgba(148, 147, 147, 0.3);
   box-sizing: border-box;
+  border-top: 1px solid rgba(148, 147, 147, 0.3);
 }
 
 .nav__list {
@@ -23,15 +23,6 @@ nav ul li i {
 }
 
 .nav__notification {
-  background-color: tomato;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-weight: 600;
   position: absolute;
   left: 15px;
   bottom: 15px;
