@@ -1,6 +1,10 @@
 :root {
+  --point-color: rgb(199, 65, 72);
+  --sub-color: #aba89d;
+  --header-color: #aa9d8f;
   --blue: royalblue;
   --horizontal-space: 25px;
   --main-border: 1px solid rgba(0, 0, 0, 0.2);
+  --point-border: 3px solid rgba(0, 0, 0, 0.2);
   --font-color: rgba(0, 0, 0, 0.5);
 }

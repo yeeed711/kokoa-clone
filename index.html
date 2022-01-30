@@ -24,18 +24,34 @@
     </div>
 
     <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
+      <h1 class="welcome-header__title">Welcome to YEZBOY chat</h1>
       <p class="welcome-header__text">
-        If you have a Kokoa Account, log in with your email or phone number.
+        If you have a Account, log in with your email or phone number.
       </p>
     </header>
 
     <form action="friends.html" method="get" id="login-form">
-      <input name="username" type="text" placeholder="Email or phone number" />
-      <input name="password" type="Password" placeholder="Password" />
+      <input
+        name="email"
+        type="email"
+        placeholder="Email or phone number"
+        required
+      />
+      <input
+        name="password"
+        type="password"
+        placeholder="Password"
+        minlength="8"
+        required
+      />
       <input type="submit" value="Log in" />
-      <a href="#">Find kokoa Account or Password</a>
+      <a href="friends.html">Find kokoa Account or Password</a>
     </form>
+
+    <div id="no-mobile">
+      <img src="/screenshort/cry.png" />
+      <span>Your screen is too big ㅠㅠ</span>
+    </div>
 
     <script
       src="https://kit.fontawesome.com/e5fce0f3a4.js"
