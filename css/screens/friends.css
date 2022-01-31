@@ -51,3 +51,8 @@
   animation: hideSplashScreen 0.3s ease-in-out forwards;
   animation-delay: 1.5s;
 }
+
+#splash-screen img {
+  width: 250px;
+  height: 250px;
+}

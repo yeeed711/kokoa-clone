@@ -18,6 +18,11 @@
   color: var(--font-color);
 }
 
+.open-chat {
+  height: 550px;
+  overflow: scroll;
+}
+
 .open-chat__header {
   display: flex;
   justify-content: space-between;
